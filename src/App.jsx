@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import MenuRustico from './components/MenuRustico';
 
@@ -54,9 +52,6 @@ const App = () => {
       </section>
       */}
 
-      <footer className="py-10 text-center text-stone-500">
-        <p>© 2025 Restaurante MuySi.</p>
-      </footer>
     </div>
   );
 };
