@@ -11,7 +11,7 @@ const App = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-900 font-sans">
+    <>
 
       {/* HERO SECTION 
       <header className="h-screen flex flex-col items-center justify-center bg-[url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&q=80')] bg-cover bg-center text-white">
@@ -52,7 +52,7 @@ const App = () => {
       </section>
       */}
 
-    </div>
+    </>
   );
 };
 
