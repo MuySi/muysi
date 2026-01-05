@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Menu, X, Wheat, Beef, Flame, Map } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
-import img from './assets/imgs/img.jpg';
+import portada from './assets/imgs/portada.jpg';
 import imgrolls from './assets/imgs/rolls.jpg';
 import imgPizza from './assets/imgs/pizza.jpg';
 import imgTacos from './assets/imgs/tacos.jpg';
@@ -124,7 +124,7 @@ const App = () => {
             <div className="block lg:hidden w-full mb-8">
               <div className="bg-orange-200 rounded-3xl h-64 w-full flex items-center justify-center relative overflow-hidden shadow-xl rotate-2">
                 <span className="text-orange-800/50 font-bold text-2xl"></span>
-                <img src={img} className="object-cover w-full h-full" />
+                <img src={portada} className="object-cover w-full h-full" />
               </div>
             </div>
 
@@ -157,7 +157,7 @@ const App = () => {
           {/* IMAGEN DESKTOP (Visible solo en pantallas grandes) */}
           <div className="hidden lg:block relative mx-auto w-full">
             <div className="bg-orange-200 rounded-3xl h-[500px] w-full flex items-center justify-center relative overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition duration-500">
-              <img src={img} className="object-cover w-full h-full" alt='FOTO PLATO PRINCIPAL' />
+              <img src={portada} className="object-cover w-full h-full" alt='FOTO PLATO PRINCIPAL' />
             </div>
           </div>
         </div>
